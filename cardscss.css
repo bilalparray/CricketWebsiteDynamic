@@ -1,0 +1,66 @@
+.playerCard {
+  background-color: rgb(20, 9, 234);
+  height: 45vh;
+}
+.playerCard:hover {
+  background-color: aliceblue;
+}
+.playerCard .card-body {
+  background-color: aliceblue;
+}
+.card img {
+  border-radius: 50%;
+  width: 100px !important;
+  border: 3px solid rgb(250, 250, 250);
+  margin-top: 2px;
+  height: 100px !important;
+}
+.card img:hover {
+  
+  border: 3px solid rgb(225, 192, 5);
+
+}
+.playerCard .button {
+  border: 0;
+  border-radius: 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.1rem 12px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background-color: rgb(48, 8, 207);
+  color: white;
+  
+}
+
+@media screen and (max-width: 767px) {
+  .playerCard {
+    width: 7rem !important;
+    height: 30vh;
+    overflow: hidden;
+  }
+  .playerCard .card-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .playerCard .card-text {
+    font-size: 10px;
+    padding: 0px !important;
+  }
+  .playerCard .button {
+    border: 0;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.1rem 12px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: rgb(31, 12, 236);
+    color: white;
+  }
+  .playerCard img{
+    width: 100px!important;
+    height: 100px!important;
+    
+  }
+}
